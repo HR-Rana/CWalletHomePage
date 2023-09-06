@@ -1,0 +1,1002 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap');
+
+
+
+
+
+:root {
+
+    --green: rgb(170, 231, 56);
+    --lightGreen: rgb(37, 201, 124);
+}
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html {
+    scroll-padding-top: 50px;
+}
+
+
+
+
+a img {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cabin', sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 5px 8px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none !important;
+}
+
+.col-md-4,
+.col-md-6 {
+    margin: 15px 0;
+}
+
+.logo-site a {
+    display: flex;
+
+}
+
+.logo-site a h5 {
+    height: 100%;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 13px !important;
+    text-decoration: none;
+}
+
+.Navigation {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+
+    box-shadow: 0px -2px 5px rgb(94, 104, 121);
+}
+
+.Navigation .container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navigation .logo-site {
+    width: 20%;
+}
+
+.Navigation .logo-site img {
+    width: 100%;
+}
+
+.Navigation .menubar {
+    width: 40%;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.menubar ul {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.menubar ul a {
+    color: black;
+    font-weight: 600;
+}
+
+.menubar ul li a:hover {
+    color: var(--green);
+}
+
+.start-button {
+    width: 25%;
+    text-align: right;
+}
+
+.right-site {
+    width: 40%;
+    justify-content: end;
+    text-align: right;
+}
+
+.start-button {
+    width: 80%;
+}
+
+.start-button button {
+    width: 50%;
+    margin-right: 5px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: var(--green);
+    padding: 10px 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.start-button button:hover {
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+}
+
+.Navigation select {
+    width: 17%;
+    margin: 0px 5px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+header {
+    height: 100%;
+    background-color: rgb(174, 234, 207);
+    padding: 75px 0;
+}
+
+header .heading-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header .heading-content img {
+    width: 30%;
+    margin: 10px 0;
+}
+
+header .heading-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+header .heading-content p {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+header .header-buttons {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .header-buttons button {
+    width: 45%;
+    display: inline-block;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid #aae738;
+    padding: 12px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+header .header-buttons button i {
+    width: 40px;
+    font-size: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+header .header-buttons button:hover {
+    background-color: black;
+    color: white;
+}
+
+header small {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.easy-excess {
+    background: url("./images/Background/");
+}
+
+
+.wallet-tools {
+    background: linear-gradient(to right, rgba(223, 223, 223, 0.9), rgba(234, 234, 234, 0.9)), url("./images/Background/toolsBG.cd36e045.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+
+    padding: 45px 0;
+}
+
+.wallet-tools .container {
+    text-align: center;
+}
+
+.wallet-tools .tools-card {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.wallet-tools .card {
+    padding: 25px 0;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+}
+
+.wallet-tools .card img {
+    height: 150px;
+    object-fit: contain;
+}
+
+.wallet-tools .card img:hover {
+    background: linear-gradient(150deg, rgba(0, 199, 0, 0.76), #dfff29dc 70%);
+}
+
+.wallet-tools .tools-card p {
+    margin: 25px 0;
+}
+
+.wallet-tools .tools-card h5 {
+    font-weight: 700;
+}
+
+.wallet-tools .tools-card p {
+    margin-top: 0px;
+}
+
+.wallet-tools .tools-card span {
+    padding: 15px 0;
+}
+
+
+
+
+
+
+
+/* wallet boots section */
+.wallet-bots {
+    margin: 50px 0;
+}
+
+.wallet-bots .heading-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallet-bots .heading-content h3 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.wallet-bots .heading-content h3 span {
+    color: rgb(196, 248, 25);
+    font-weight: 700;
+    font-size: 28px;
+    text-shadow: 1px 1px black;
+}
+
+.wallet-bots .social-images {
+    width: 40%;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.wallet-bots .social-images li {
+    width: 32%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    font-weight: 600;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+}
+
+.wallet-bots .social-images li:hover {
+    background-color: whitesmoke;
+}
+
+.wallet-bots .social-images li img {
+    width: 60px;
+    margin: 0;
+
+}
+
+.wallet-bots .social-images img {
+    width: 19%;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.wallet-bots .container {
+    text-align: center;
+}
+
+.wallet-bots button {
+    width: 18%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #b6e966;
+    font-weight: 500;
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.feedback-matter {
+    background-color: #aae738;
+    padding: 45px 0;
+}
+
+.feedback-matter h2 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.feedback-matter p {
+    font-weight: 500;
+}
+
+.feedback-matter button {
+    padding: 10px;
+    width: 15%;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* wallet security section */
+.wallet-security-section {
+    margin: 40px 0;
+}
+
+.wallet-security-section .heading {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.wallet-security-section .heading p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.wallet-security-section .icons-content {
+    width: 50%;
+    margin: 10px auto;
+    margin-top: 35px;
+}
+
+.wallet-security-section .file {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.wallet-security-section .file h6 {
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+/* First ever  section */
+.easy-excess-section .container {
+    padding: 100px 0;
+    background: url('./images/Background/easyAccessBG.a98e7c76.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain !important;
+}
+
+.easy-excess-section .container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.easy-excess-section .heading {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.easy-excess-section .heading h5 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.easy-excess-section .heading p {
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+
+.easy-excess-section .excessContent {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    border: 1.5px solid black;
+    background-color: #e9f3bb;
+    padding: 25px 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.easy-excess-section .excessContent i {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.easy-excess-section .excessContent h5 {
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.statistic-card .card-box {
+    width: 35%;
+    margin: 20px auto;
+    padding: 5px;
+    margin-top: 0;
+    border-radius: 25px;
+    background: linear-gradient(to top, rgb(100, 215, 253), rgb(170, 231, 56)) rgb(255, 255, 255);
+    box-shadow: rgba(170, 231, 56, 0.5) 0px 4px 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.statistic-card .popularity-card {
+    padding: 15px 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.statistic-card .title {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.statistic-card .title h2 {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.statistic-card .title h5 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+}
+
+.statistic-card .body {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.statistic-card .body h2 {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.statistic-card .body h5 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+}
+
+.statistic-card .footer {
+    padding: 15px 0;
+}
+
+.statistic-card .footer h2 {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.statistic-card .footer h5 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+}
+
+
+
+
+
+
+
+
+/*  */
+.swiper-slider-area {
+    width: 100%;
+    height: 100%;
+    padding: 45px;
+    background: linear-gradient(90deg, #dceefb, #b6e966);
+}
+
+.swiper-slider-area .heading-content {
+    width: 45%;
+    margin: 0 auto;
+    line-height: 32px;
+    text-align: center;
+    padding: 0px 40px;
+
+}
+
+.swiper-slider-area .heading-content h3 {
+    font-size: 26px;
+}
+
+.swiper-slider-area .heading-content p {
+    font-size: 20px;
+    margin: 20px 0;
+
+}
+
+
+
+
+
+
+
+
+
+/* Web management section */
+.web-management {
+    padding: 35px 0;
+}
+
+.web-management .management-content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.web-management .management-content h4 {
+    font-size: 22px;
+    margin: 15px 0;
+
+}
+
+.web-management .management-content button {
+    width: 50%;
+    padding: 12px 00px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+
+.BlockChains {
+    background-color: #202813 !important;
+    color: white;
+    padding: 45px 0;
+    text-align: center;
+}
+
+.BlockChains h6 {
+    font-size: 24px;
+}
+
+.BlockChains h6 span {
+    color: var(--green);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.BlockChains h5 span {
+    color: var(--green);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.BlockChains button {
+    width: 20%;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 25px 0;
+    border: none;
+    background-color: var(--green);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.BlockChains .crypto-icons {
+    width: 25%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*  */
+.offer-and-price {
+    padding: 50px 0;
+}
+
+.offer-and-price .best-price-content {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.offer-and-price img {
+    width: 400px;
+    margin: 25px 0;
+}
+
+.offer-and-price h4 {
+    margin: 25px 0;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.offer-and-price button {
+    width: 50%;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px 25px;
+    border-radius: 25px;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    -ms-border-radius: 250px;
+    -o-border-radius: 250px;
+}
+
+
+
+
+.faq-section {
+    padding: 35px 0;
+}
+
+.faq-section .qus-anser-area {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.faq-section h2 {
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.faq-section .qus-anser-area {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.faq-section .qus-ans {
+    position: relative;
+    padding: 15px;
+}
+
+.faq-section .qus-ans:not(:last-child) {
+    border-bottom: 1px dashed black;
+}
+
+.faq-section .qus-ans p {
+    display: none;
+}
+
+.faq-section .qus-ans h5 {
+    width: 90%;
+    font-weight: 900;
+}
+
+.faq-section .qus-ans p {
+    display: none;
+}
+
+.faq-section .qus-ans i {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(61, 61, 61);
+    color: rgb(168, 168, 168);
+    padding-top: 50px;
+}
+
+footer .logo p {
+    margin: 15px 0;
+}
+
+footer .footer-social-icons {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-social-icons li {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(160, 160, 160);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+
+footer .footer-social-icons li:hover {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 187, 255);
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+footer .footer-social-icons li:last-child:hover {
+    background-color: red;
+}
+
+footer .row {
+    margin-top: 50px;
+}
+
+footer .row li a {
+    font-weight: 500;
+    color: rgb(180, 180, 180);
+}
+
+footer .row li:hover {
+
+    color: var(--lightGreen);
+}
+
+footer .row li:hover a {
+    color: var(--lightGreen);
+}
+
+footer .header-buttons {
+    width: 45%;
+    text-align: center;
+    margin: 25px auto;
+    justify-content: space-between;
+
+}
+footer .row h6{
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+footer .header-buttons button {
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 1px solid transparent;
+    font-size: 14px;
+
+}
+
+footer .header-buttons button:hover {
+    background-color: #000000;
+    color: white;
+    border: 1px solid white;
+}
+
+footer .header-buttons button i {
+    margin-right: 5px;
+}
+
+
+.copyrights {
+    height: 100%;
+    background-color: rgb(47, 47, 47);
+    text-align: center;
+    color: rgb(194, 194, 194);
+    padding: 25px 75px;
+}
